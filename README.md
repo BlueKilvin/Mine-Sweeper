@@ -1,3 +1,5 @@
 # Mine Sweeper Game
 
-Minesweeper game with grids and without for university project.
+Minesweeper game with grids and without.
+
+Running on Java.
