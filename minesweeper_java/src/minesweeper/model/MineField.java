@@ -1,4 +1,4 @@
-package uk.ac.kcl.inf.szschaler.minesweeper.model;
+package minesweeper.model;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -6,14 +6,9 @@ import java.util.Random;
 
 import javax.swing.table.AbstractTableModel;
 
-import uk.ac.kcl.inf.szschaler.minesweeper.model.cells.Cell;
-import uk.ac.kcl.inf.szschaler.minesweeper.model.cells.CellFactory;
+import minesweeper.model.cells.Cell;
+import minesweeper.model.cells.CellFactory;
 
-/**
- * A rectangular field of mines.
- * 
- * @author Steffen Zschaler
- */
 public class MineField extends AbstractTableModel {
 
 	private int width, height, numMines;

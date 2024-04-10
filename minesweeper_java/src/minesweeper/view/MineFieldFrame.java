@@ -1,4 +1,4 @@
-package uk.ac.kcl.inf.szschaler.minesweeper.view;
+package minesweeper.view;
 
 import java.awt.Component;
 import java.awt.FlowLayout;
@@ -23,16 +23,11 @@ import javax.swing.SwingUtilities;
 import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
 
-import uk.ac.kcl.inf.szschaler.minesweeper.model.GameStateListener;
-import uk.ac.kcl.inf.szschaler.minesweeper.model.MineField;
-import uk.ac.kcl.inf.szschaler.minesweeper.model.cells.Cell;
-import uk.ac.kcl.inf.szschaler.minesweeper.model.cells.CellFactory;
+import minesweeper.model.GameStateListener;
+import minesweeper.model.MineField;
+import minesweeper.model.cells.Cell;
+import minesweeper.model.cells.CellFactory;
 
-/**
- * Main frame of the mine sweeper game.
- * 
- * @author Steffen Zschaler
- */
 @SuppressWarnings("serial")
 public class MineFieldFrame extends JFrame {
 
